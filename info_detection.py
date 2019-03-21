@@ -54,11 +54,11 @@ def call():
     打电话通知，还有两次短信通知机会
     :return:
     """
-    appkey = "468eca276ad31f97fbc174b0c5f1b007"
+    appkey = "xxx"
     url = "http://op.juhe.cn/yuntongxun/voice"
     params = {
         "valicode": "123456",  # 验证码内容，字母、数字 4-8位
-        "to": "18851876323",  # 接收手机号码
+        "to": "1885187xxx",  # 接收手机号码
         "playtimes": "",  # 验证码播放次数，默认3
         "key": appkey,  # 应用APPKEY(应用详细页查询)
         "dtype": "",  # 返回数据的格式,xml或json，默认json
